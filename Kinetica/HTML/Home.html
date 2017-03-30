@@ -3,6 +3,8 @@
 <head>
     <title>Kinetica</title>
 	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="../Content/bootstrap.css" rel="stylesheet" />
     <link href="../Content/bootstrap-responsive.css" rel="stylesheet" />
     <link href="../Content/styles.css" rel="stylesheet" />
@@ -16,41 +18,44 @@
     <!--<script src="../Scripts/Home.js"></script>-->
 </head>
 <body> <!--data-spy="scroll" data-target=".navspy" data-offset="40"--> 
-    <header id="header" class="navbar navbar-fixed-top">
-        <nav id="header-container">
-            <div id="logo">
-                <img src="../IMG/logo_kinetica2.jpg" />
-            </div>
-            <section class="navspy">
-                <div class="nav-container">
-                    <ul class="nav nav-pills">
-                        <li><a id="home" href="#" type="button">HOME</a></li>
-                        <li><a href="#about" type="button">ABOUT US</a></li>
-                        <li><a href="#services" type="button">SERVICES</a></li>
-                        <li><a href="#technologies" type="button">TECHNOLOGIES</a></li>
-                        <li><a href="#our-clients" type="button">OUR CLIENTS</a></li>
-                        <li><a href="#team" type="button">OUR TEAM</a></li>
-                        <li><a href="#work-with-us" type="button">WORKING WITH US</a></li>
-                        <li><a href="#connect" type="button">CONNECT</a></li>
-                    </ul>
+    <!--<div class="container-fluid">-->
+        <header id="header" class="navbar navbar-fixed-top">
+            <nav id="header-container">
+                <div id="logo">
+                    <img src="../IMG/logo_kinetica2.jpg" />
                 </div>
-            </section>
-        </nav>
-    </header>
-    <main>
+                <section class="navspy">
+                    <div class="container-fluid">
+                        <div class="nav-container">
+                            <ul class="nav nav-pills">
+                                <li><a id="home" href="#" type="button">HOME</a></li>
+                                <li><a href="#about" type="button">ABOUT US</a></li>
+                                <li><a href="#services" type="button">SERVICES</a></li>
+                                <li><a href="#technologies" type="button">TECHNOLOGIES</a></li>
+                                <li><a href="#our-clients" type="button">OUR CLIENTS</a></li>
+                                <li><a href="#team" type="button">OUR TEAM</a></li>
+                                <li><a href="#work-with-us" type="button">WORKING WITH US</a></li>
+                                <li><a href="#connect" type="button">CONNECT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </nav>
+        </header>
+        <main>
 
-            
-            
+
+
             <section class="section-1">
 
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!--Carousel indicators-->
                     <!--<ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-            </ol>-->
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                    </ol>-->
                     <!--Carousel items-->
-                    <div class="carousel-inner">                        
+                    <div class="carousel-inner">
                         <div class="active item">
                             <div class="carousel-geofeedia">
                                 <div class="flex-item-carousel">
@@ -61,7 +66,7 @@
                                 </div>
                                 <div class="flex-item-carousel"><img class="carousel-image" src="../IMG/tech.jpg" /></div>
                             </div>
-                        </div>                                                
+                        </div>
                         <div class="item">
                             <div class="carousel-ancile">
                                 <div class="flex-item-carousel">
@@ -73,7 +78,7 @@
                                 <div class="flex-item-carousel"><img class="carousel-image-ancile" src="../IMG/ancile-logo.jpg" /></div>
                             </div>
                         </div>
-                        
+
                     </div>
                     <!--Carousel controls-->
                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -95,18 +100,20 @@
                 </div>
                 <br />
                 <br />
-                <div id="text-about">
-                    Kinetica is a technology company that designs and builds custom software systems.
-                    Our purpose is to build innovative solutions that delight our customers, allowing them to grow
-                    their businesses through technology.
-                    We provide a full spectrum of custom software services, covering all stages of the software development
-                    life cycle.
-                    We are specialized in cloud, web and mobile solutions, using a wide range of technologies. We have some
-                    of the best technical talent in the world.
-                    Our ISO 9001:2008-certified Quality System ensures we deliver quality services and products to our clients.
-                </div>
-                <div>
-                    <img  id="logo-about" src="../IMG/logo_iram9000.jpg" />
+                <div class="flex-container-about">
+                    <div class="flex-item-text-about">
+                        Kinetica is a technology company that designs and builds custom software systems.
+                        Our purpose is to build innovative solutions that delight our customers, allowing them to grow
+                        their businesses through technology.
+                        We provide a full spectrum of custom software services, covering all stages of the software development
+                        life cycle.
+                        We are specialized in cloud, web and mobile solutions, using a wide range of technologies. We have some
+                        of the best technical talent in the world.
+                        Our ISO 9001:2008-certified Quality System ensures we deliver quality services and products to our clients.
+                    </div>
+                    <div class="flex-item-logo-about">
+                        <img id="logo-about" src="../IMG/logo_iram9000.jpg" />
+                    </div>
                 </div>
             </section>
 
@@ -191,10 +198,10 @@
                     </div>
                 </div>
 
-</section>
+            </section>
 
-            <br/>
-            <br/>
+            <br />
+            <br />
 
             <section id="our-clients" class="section-5">
                 <div class="main-content-header">
@@ -355,85 +362,99 @@
             <br />
 
             <section id="team" class="section-6">
-                <div class="main-content-header">
-                    <h1>-OUR TEAM-</h1>
-                    <p class="text-italic">We have some of the best technical talent in the world.</p>
-                </div>
-                <br />
-                <br />
-                <div class="flex-container-team">
-                    <div class="flex-container-team-col">
-                        <div class="flex-item-team-img">
-                            <img src="../IMG/Team/EricCartman.png" />
+                <div class="container-fluid">
+                    <div class="main-content-header">
+                        <h1>-OUR TEAM-</h1>
+                        <p class="text-italic">We have some of the best technical talent in the world.</p>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="flex-container-team">
+                        <div class="flex-item-team">
+                            <div id="item-team-cartman">
+                                <div class="flex-item-team-img">
+                                    <img src="../IMG/Team/EricCartman.png" />
+                                </div>
+                                <div class="flex-item-team-text">
+                                    <h3>Eric Cartman</h3>
+                                    <h6>@eric_cartman</h6>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flex-item-team-text">
-                            <h3>Eric Cartman</h3>
-                            <h6>@eric_cartman</h6>
+                        <div class="flex-item-team">
+                            <div id="item-team-kenny">
+                                <div class="flex-item-team-img">
+                                    <img src="../IMG/Team/KennyMcCormick.png" />
+                                </div>
+                                <div class="flex-item-team-text">
+                                    <h3>Kenny McCormick</h3>
+                                    <h6>@kenny</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-item-team">
+                            <div id="item-team-chef">
+                                <div class="flex-item-team-img">
+                                    <img src="../IMG/Team/Chef.png" />
+                                </div>
+                                <div class="flex-item-team-text">
+                                    <h3>Chef</h3>
+                                    <h6>@chef</h6>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="flex-container-team-col">
-                        <div class="flex-item-team-img">
-                            <img src="../IMG/Team/KennyMcCormick.png" />
+                    <br />
+                    <br />
+                    <div class="flex-container-team">
+                        <div class="flex-item-team">
+                            <div id="item-team-kyle">
+                                <div class="flex-item-team-img">
+                                    <img src="../IMG/Team/KyleBroflovski.png" />
+                                </div>
+                                <div class="flex-item-team-text">
+                                    <h3>Kyle Broflovski</h3>
+                                    <h6>@kyle_broflovski</h6>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flex-item-team-text">
-                            <h3>Kenny McCormick</h3>
-                            <h6>@kenny</h6>
+                        <div class="flex-item-team">
+                            <div id="item-team-stan">
+                                <div class="flex-item-team-img">
+                                    <img src="../IMG/Team/StanMarsh.png" />
+                                </div>
+                                <div class="flex-item-team-text">
+                                    <h3>Stan Marsh</h3>
+                                    <h6>@stan_marsh</h6>
+                                </div>
+                            </div>                         
                         </div>
-                        
-                    </div>
-                    <div class="flex-container-team-col">
-                        <div class="flex-item-team-img">
-                            <img src="../IMG/Team/Chef.png" />
-                        </div>
-                        <div class="flex-item-team-text">
-                            <h3>Chef</h3>
-                            <h6>@chef</h6>
-                        </div>
-                    </div>
-                </div>
-                <br />
-                <br />                
-                <div class="flex-container-team">
-                    <div class="flex-container-team-col">
-                        <div class="flex-item-team-img">
-                            <img src="../IMG/Team/KyleBroflovski.png" />
-                        </div>
-                        <div class="flex-item-team-text">
-                            <h3>Kyle Broflovski</h3>
-                            <h6>@kyle_broflovski</h6>
-                        </div>
-                    </div>
-                    <div class="flex-container-team-col">
-                        <div class="flex-item-team-img">
-                            <img src="../IMG/Team/StanMarsh.png" />
-                        </div>
-                        <div class="flex-item-team-text">
-                            <h3>Stan Marsh</h3>
-                            <h6>@stan_marsh</h6>
-                        </div>
-
-                    </div>
-                    <div class="flex-container-team-col">
-                        <div class="flex-item-team-img">
-                            <img src="../IMG/Team/TokenBlack.png" />
-                        </div>
-                        <div class="flex-item-team-text">
-                            <h3>Token Black</h3>
-                            <h6>@token</h6>
+                        <div class="flex-item-team">
+                            <div id="item-team-token">
+                                <div class="flex-item-team-img">
+                                    <img src="../IMG/Team/TokenBlack.png" />
+                                </div>
+                                <div class="flex-item-team-text">
+                                    <h3>Token Black</h3>
+                                    <h6>@token</h6>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            
+
             <br />
             <br />
 
             <section id="work-with-us" class="section-7">
                 <div class="main-content-header-section-7">
                     <h1>-WORK WITH US-</h1>
-                    <p class="text-italic"><span>We are constantly looking for people passionate about technology,</span>
-                                           <span>committed to the quality of their work</span>
-                                            <span>and eager to become the best in the market. Contact us!</span></p>
+                    <p class="text-italic">
+                        <span>We are constantly looking for people passionate about technology,</span>
+                        <span>committed to the quality of their work</span>
+                        <span>and eager to become the best in the market. Contact us!</span>
+                    </p>
                 </div>
                 <div class="div-work-button">
                     <a href="#" id="work-button" class="btn btn-primary btn-large" role="button">SEND YOUR RESUME</a>
@@ -443,72 +464,69 @@
             <br />
             <br />
 
-        <section id="connect" class="section-8">
-            <div class="main-content-header">
-                <h1>-CONNECT-</h1>
-                <p class="text-italic">Let's talk.</p>
-            </div>
-            <br />
-            <br />
-            <div class="flex-container-connect">
-                <div class="flex-container-connect-col">
-                    <div class="flex-item-connect-img">
-                        <img src="../IMG/Connect/location-icon.png" />                        
-                    </div>
-                    <div class="flex-item-connect-desc">
-                        <h5>Headquarters</h5>
-                    </div>
-                    <br />
-                    <br />
-                    <div class="flex-item-connect-text">
-                        <h5><span>Billinghurst 1193 4oA, C.A.B.A.,</span> <span>Argentina.</span></h5>
-                    </div>
+            <section id="connect" class="section-8">
+                <div class="main-content-header">
+                    <h1>-CONNECT-</h1>
+                    <p class="text-italic">Let's talk.</p>
                 </div>
-                <div class="flex-container-connect-col">
-                    <div class="flex-item-connect-img">
-                        <img src="../IMG/Connect/Phone.png" />
+                <br />
+                <br />
+                <div class="container-fluid">
+                    <div class="row">                       
+                        <div class="col-sm-3">
+                            <div class="item-connect-img">
+                                <img src="../IMG/Connect/location-icon.png" />
+                            </div>
+                            <div class="item-connect-desc">
+                                <h5>Headquarters</h5>
+                            </div>                           
+                            <br />
+                            <div class="item-connect-text">
+                                <h5><span>Billinghurst 1193 4oA, C.A.B.A.,</span> <span>Argentina.</span></h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="item-connect-img">
+                                <img src="../IMG/Connect/Phone.png" />
+                            </div>
+                            <div class="item-connect-desc">
+                                <h5>Phone</h5>
+                            </div>
+                            <br />                           
+                            <div class="item-connect-text">
+                                <h5>+54 (11) 4963 7073</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="item-connect-img">
+                                <img src="../IMG/Connect/Email.png" />
+                            </div>
+                            <div class="item-connect-desc">
+                                <h5>Email</h5>
+                            </div>
+                            <br />                           
+                            <div class="item-connect-text">
+                                <h5><a href="#">info@kinetica-solutions.com</a></h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="item-connect-img">
+                                <img src="../IMG/Connect/Twitter.png" />
+                            </div>
+                            <div class="item-connect-desc">
+                                <h5>Twitter</h5>
+                            </div>
+                            <br />                           
+                            <div class="item-connect-text">
+                                <h5><a href="#">@KineticaArg</a></h5>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex-item-connect-desc">
-                        <h5>Phone</h5>
-                    </div>
-                    <br />
-                    <br />
-                    <div class="flex-item-connect-text">
-                        <h5>+54 (11) 4963 7073</h5>
-                    </div>
-                </div>
-                <div class="flex-container-connect-col">
-                    <div class="flex-item-connect-img">
-                        <img src="../IMG/Connect/Email.png" />
-                    </div>
-                    <div class="flex-item-connect-desc">
-                        <h5>Email</h5>
-                    </div>
-                    <br />
-                    <br />
-                    <div class="flex-item-connect-text">
-                        <h5><a href="#">info@kinetica-solutions.com</a></h5>
-                    </div>
-                </div>
-                <div class="flex-container-connect-col">
-                    <div class="flex-item-connect-img">
-                        <img src="../IMG/Connect/Twitter.png" />
-                    </div>
-                    <div class="flex-item-connect-desc">
-                        <h5>Twitter</h5>
-                    </div>
-                    <br />
-                    <br />
-                    <div class="flex-item-connect-text">
-                        <h5><a href="#">@KineticaArg</a></h5>
-                    </div>
-                </div>
-            </div>
-        </section>
-   </main>    
+                </div>               
+            </section>
+        </main>
 
-  <footer>
-
-  </footer>
+        <footer></footer>
+    <div></div>
 </body>
 </html>
