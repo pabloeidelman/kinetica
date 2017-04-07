@@ -4,7 +4,7 @@
     <title>Kinetica</title>
 	<meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
     <link href="../Content/bootstrap.css" rel="stylesheet" />
     <link href="../Content/bootstrap-responsive.css" rel="stylesheet" />
     <link href="../Content/styles.css" rel="stylesheet" />
@@ -49,12 +49,12 @@
             <section class="section-1">
 
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!--Carousel indicators-->
+                    <Carousel indicators>
                     <!--<ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel" data-slide-to="1"></li>
                     </ol>-->
-                    <!--Carousel items-->
+                    <Carousel items>
                     <div class="carousel-inner">
                         <div class="active item">
                             <div class="carousel-geofeedia">
@@ -80,12 +80,12 @@
                         </div>
 
                     </div>
-                    <!--Carousel controls-->
+                    <Carousel controls>
                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>&lsaquo;
+                        <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->&lsaquo;
                     </a>
                     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>&rsaquo;
+                        <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->&rsaquo;
                     </a>
                 </div>
             </section>
@@ -470,10 +470,9 @@
                     <p class="text-italic">Let's talk.</p>
                 </div>
                 <br />
-                <br />
-                <div class="container-fluid">
-                    <div class="row">                       
-                        <div class="col-sm-3">
+                <br />                
+                    <div class="flex-container-connect-col">                       
+                        <div class="flex-container-connect" id="location">
                             <div class="item-connect-img">
                                 <img src="../IMG/Connect/location-icon.png" />
                             </div>
@@ -485,7 +484,7 @@
                                 <h5><span>Billinghurst 1193 4oA, C.A.B.A.,</span> <span>Argentina.</span></h5>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="flex-container-connect">
                             <div class="item-connect-img">
                                 <img src="../IMG/Connect/Phone.png" />
                             </div>
@@ -497,7 +496,7 @@
                                 <h5>+54 (11) 4963 7073</h5>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="flex-container-connect">
                             <div class="item-connect-img">
                                 <img src="../IMG/Connect/Email.png" />
                             </div>
@@ -509,7 +508,7 @@
                                 <h5><a href="#">info@kinetica-solutions.com</a></h5>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="flex-container-connect">
                             <div class="item-connect-img">
                                 <img src="../IMG/Connect/Twitter.png" />
                             </div>
@@ -521,8 +520,7 @@
                                 <h5><a href="#">@KineticaArg</a></h5>
                             </div>
                         </div>
-                    </div>
-                </div>               
+                    </div>                               
             </section>
         </main>
 
