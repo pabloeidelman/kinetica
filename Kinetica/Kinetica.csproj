@@ -140,7 +140,7 @@
     <Content Include="Content\bootstrap-responsive.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\styles.css" />
-    <Content Include="HTML\Home.html" />
+    <Content Include="HTML\Default.html" />
     <Content Include="IMG\ancile-logo.jpg" />
     <Content Include="IMG\glyphicons-halflings-white.png" />
     <Content Include="IMG\glyphicons-halflings.png" />
